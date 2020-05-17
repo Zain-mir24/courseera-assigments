@@ -94,9 +94,6 @@ margin:10px;
     border: black;
     text-align: center;
 }
-
-
-
  
 .box1{
 width:75%;
@@ -125,7 +122,7 @@ display: flex;
     }
 
     .box:first-child{
-margin-left: 0;
+     margin-left: 0;
     }
 
     .box:nth-child(2){

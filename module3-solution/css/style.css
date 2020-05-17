@@ -1,0 +1,142 @@
+body{
+    font-size:16px;
+    
+}
+/*** Header **/
+.navbar{
+    background-color: grey;
+    border-radius: 0;
+    border:0;
+    z-index: 1;
+position: fixed;
+width: 100%;
+    
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black;
+  }
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+  .icon-bar{
+    background-color: black;
+      display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    font-family: 'Lora', serif;
+    color:black;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    text-align: center;
+  }
+h2{
+    text-align: center;
+}
+.main-content
+{
+    background-color: grey;
+ padding:20px;
+ margin:20px;
+    
+    
+}
+.nav{
+  background-color: lightgrey;
+}
+
+.sr-only{
+    height: 1px;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+}
+.navbar-toggle{
+    float:right;
+    border:1px solid black;
+}
+.icon-bar{
+    color:black;
+}
+.textcontainer{
+  margin-top: 71px;
+  padding:0px;
+  
+}
+/*** header**/
+
+/**body***/
+.container{
+    width:100%
+}
+p{
+    color:black;
+}
+h3{
+    text-align: center;
+    color:black;
+}
+#nav-list{
+
+    color:black;
+}
+.nav{
+  display:none !important;
+}
+/** media queries**/
+
+/**large devices only***/
+@media(min-width:1200px){
+
+}
+/*** medium devices only ***/
+@media(min-width:992px) and(max-width:1199px){
+
+}
+/***small devices only***/
+@media(min-width:768px)and(max-width:991px){
+
+}
+/*** extra small devices ***/
+@media(max-width:767px){
+  .nav{
+    display:block !important;
+  }
+.navbar-brand h1{
+    padding-top: 10px;
+    font-size: 5vw;
+    display:true;
+}
+.navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+  .navbar-collapse a{
+    border-bottom:1px solid black;
+    text-align: center;
+  }
+  .nav a{
+    color:black;
+  }
+  
+ 
+
+  
+}
